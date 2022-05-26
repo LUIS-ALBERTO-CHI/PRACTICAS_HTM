@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eeee;
+    font-family: 'Josefin Slab', serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1100px;
+    border: 5px solid #cccc;
+    margin: auto;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.contenedor > div > header{
+    padding: 10px;
+    background: #2C3E50;
+    border-radius: 20px 20px 0 0;
+}
+
+.contenedor >div > header >#perfil{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    background: #2C3E50;
+    float: left;
+    margin-left: 2rem;
+    box-shadow: 0px 15px 20px rgb(0,0,0,0.50);
+}
+img{
+    transform: scale(0.8);
+    transition: all 0.5s linear;
+}
+
+img.hover{
+    transform: scale(0.9);
+}
+
+.contenedor > div > header > #datos{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #cccc;
+    background: #2C3E50;
+    text-align: left;
+    margin-left: 24rem;
+}
+
+.contenedor > div > #titulos{
+    color: #17202A;
+    text-align: center;
+}
+
+.contenedor > div > #datos{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #566573;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+.contenedor > div > #titulos2{
+    display: block;
+    color: #17202A;
+    text-align: left;
+    padding: 10px;
+    background: #3498DB;
+    border-radius: 20px 0 0 20px;
+}
+
+.contenedor > div > #descripcion{
+    display: block;
+    padding: 10px;
+    color: #566573;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#f{
+    display: block;
+    padding: 10px;
+    color: #3498DB;
+    text-align: left;
+    margin-left: 25px;
+}
+
+#f2{
+    display: block;
+    padding: 10px;
+    color: #566573;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#titulos3{
+    display: block;
+    color: #3498DB;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+hr{
+    color: #cccc;
+    width: 80%;
+    margin-left: 40px;
+}
+
+footer{
+    padding: 20px;
+    background: #566573;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.contenedor{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 370px 1fr;
+    grid-template-rows: 160px;
+}
+
+.contenedor .item{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.contenedor .item2{
+    grid-column-start: 2;
+    grid-column-end: -1;
+
+    grid-row-start: 2;
+    grid-row-end: 7;
+
+}
+
+.contenedor .item3{
+    grid-column-start: 1;
+    grid-column-end: -1;
+
+}

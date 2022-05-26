@@ -1,0 +1,89 @@
+*{margin: 0;padding: 0;}
+html{background-color: aliceblue;}
+
+body{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+header{
+    width: 1000px;
+    height: 200px;
+    background-color: blue;
+    border-top: 10px solid black;
+    border-bottom: 5px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+}
+nav{
+    width: 1000px;
+    height: 50px;
+    background-color: green;
+    border-top: 10px solid black;
+    border-bottom: 5px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+}
+main{
+    width: 1000px;
+    height: 500px;
+    background-color: gray;
+    border-top: 10px solid black;
+    border-bottom: 5px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+}
+footer{
+    width: 1000px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 10px solid black;
+    border-bottom: 5px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+}
+section#Banner{
+    width: 790px;
+    height: 190px;
+    float: left;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+section#Logo{
+    width: 190px;
+    height: 190px;
+    float: left;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+article{
+    width: 690px;
+    height: 490px;
+    float: left;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+aside{
+    width: 290px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    float: left;
+    background-color: white;
+}
