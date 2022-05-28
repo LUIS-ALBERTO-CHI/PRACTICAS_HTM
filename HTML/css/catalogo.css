@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+table{
+    width: 40%;
+    border: 2px solid black;
+    margin-left: 135px;
+    padding: 20px;
+    background-color: azure;
+    box-shadow: 5px 5px 15px 0 black;
+}

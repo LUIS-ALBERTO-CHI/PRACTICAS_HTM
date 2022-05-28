@@ -17,10 +17,42 @@ form{
     box-shadow: 5px 5px 15px 0 black;
 }
 
-label{
-    font-size: 12px;
-    width: 100%;
+#div1{
+    margin-left: 50%;
 }
+#div2{
+    margin-left: 50%;
+}
+#div3{
+    margin-left: 38.5%;
+}
+#div4{
+    margin-left: 30.5%;
+}
+
+#div5{
+    margin-left: 54%;
+}
+
+#div6{
+    margin-left: 57.5%;
+}
+#div7{
+    margin-left: 31%;
+}
+
+#div8{
+    margin-left: 21%;
+}
+
+#div9{
+    margin-left: 22.5%;
+}
+
+#div10{
+    margin-left: 16%;
+}
+
 
 input{
     margin-bottom: 20px;
@@ -31,3 +63,4 @@ select{
     margin-bottom: 20px;
     border: 2px solid black;
 }
+
